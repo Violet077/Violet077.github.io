@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galeri Foto</title>
+    <link rel="stylesheet" href="style.css">
+ 
+</head>
+<body>
+	<div class="maintenance-banner">
+		<p>Perhatian: Kami akan melakukan pemeliharaan rutin pada tanggal 18 Juli 2023. Mohon maaf atas ketidaknyamanannya.</p>
+		</div>
+		<!-- Sisanya dari konten situs Anda -->
+
+
+    <div class="navbar">
+        <h1><img src="icon1.png" alt="Galeri Foto" /></h1> <!-- Perhatikan perubahan di sini -->
+        <div>
+			<input type="text" id="searchInput" placeholder="Search...">
+            <a href="#"><i class="fa fa-home"></i> Home</a>
+            <a href="#"><i class="fa fa-info"></i> About</a>
+			<a href="#" id="darkModeToggle">Dark Mode</a>
+        </div>
+    </div>
+	<div class="lightbox" id="lightbox">
+        <div class="lightbox-content" id="lightbox-content">
+            <img src="" alt="" id="lightbox-img">
+        </div>
+        <div class="lightbox-close" onclick="closeLightbox()">&times;</div>
+    </div>
+    <div class="main-content" id="gallery"></div>
+    <script src="script.js"></script>
+	
+
+</body>
+</html>
