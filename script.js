@@ -40,6 +40,17 @@
 			{ desc: "Milet", src: "foto/38.jpg", category: "Girl" },
 			{ desc: "Milet", src: "foto/39.jpg", category: "Girl" },
 			{ desc: "Milet", src: "foto/40.jpg", category: "Girl" },
+			{ desc: "Milet", src: "foto/41.jpg", category: "Girl" },
+			{ desc: "Milet", src: "foto/42.jpg", category: "Girl" },
+			{ desc: "Milet", src: "foto/43.jpg", category: "Girl" },
+			{ desc: "Milet", src: "foto/44.jpg", category: "Girl" },
+			{ desc: "Milet", src: "foto/45.jpg", category: "Girl" },
+			{ desc: "Milet", src: "foto/46.jpg", category: "Girl" },
+			{ desc: "Milet", src: "foto/47.jpg", category: "Girl" },
+			{ desc: "Milet", src: "foto/48.jpg", category: "Girl" },
+			{ desc: "Milet", src: "foto/49.jpg", category: "Girl" },
+			{ desc: "Milet", src: "foto/50.jpg", category: "Girl" },
+			
             
             // Add more images here
         ];
