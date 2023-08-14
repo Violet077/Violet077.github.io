@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Preview</title>
+	<link rel="stylesheet" href="style.css">
+	
+</head>
+<body>
+	<div class="navbar">
+			<h1><img src="icon1.png" alt="Galeri Foto" onclick="openMenu()" /></h1> <!-- Perhatikan perubahan di sini -->
+			<input type="text" class="search-input" id="searchInput" placeholder="Search...">
+			<div id="searchSuggestions" class="search-suggestions"></div>
+            <a href="#" id="darkModeToggle">Night Mode</a>
+        </div>
+    </div>
+	<!--<div id="sideMenu" class="side-menu">
+        <a href="#" onclick="closeMenu()">Close</a>
+        <a href="#">Trending</a>
+        <a href="#">Explore</a>
+        <a href="#">Other</a>
+        <!-- tambahkan item menu lainnya di sini -->
+    <!--</div> -->
+	
+	<div class="preview-container">
+	<a href="index.html" class="back-button">Back</a>
+		<div class="preview-image" id="previewImage">
+			<div class="preview-image-content" id="previewImageContent">
+				<img id="previewImage-img" src="" alt="Preview">
+				<div class="preview-description"><div id="imageDescription" class="preview-description"></div></div>
+	</div>
+	<div class= "main-content-container" >
+		<div class="main-content" id="gallery">
+	</div>
+    
+    <script>
+        function getParameterByName(name) {
+            name = name.replace(/[\[]/, "\\[").replace(/[\]]/, "\\]");
+            var regex = new RegExp("[\\?&]" + name + "=([^&#]*)"),
+            results = regex.exec(location.search);
+            return results === null ? "" : decodeURIComponent(results[1].replace(/\+/g, " "));
+        }
+
+        var imageSrc = getParameterByName('image');
+        if (imageSrc) {
+            document.getElementById('previewImage-img').src = imageSrc;
+        }
+    </script>
+	<script src= "script.js"></script>
+</body>
+</html>
