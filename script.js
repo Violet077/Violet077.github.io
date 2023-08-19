@@ -60,7 +60,7 @@
     let likedTweets = {};
 	
 	function addDummyUsers() {
-        for (let i = 1; i <= 100000; i++) {
+        for (let i = 1; i <= 5000; i++) {
             const newUsername = `user${i}`;
             addUser(newUsername);
         }
